@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* header  */
+
+header {
+  position: sticky;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+}
+
+/* card section  */
+
+#Ecommerce {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  overflow: hidden;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: all linear 0.6s;
+}
+
+img:hover{
+  transform: scale(1.2);
+  transition: all linear 0.2s;
+}
+
+.product-info {
+  margin-top: 15px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #e44d26;
+  margin-top: 5px;
+}
+
+.buy-button {
+  background-color: #e44d26;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #333;
+}
+
+/* About us page  */
+
+.AboutUs{
+  min-height: 100vh;
+}
+
+.AboutUs header h1 {
+  margin: 0;
+}
+
+.about-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-details h3 {
+  color: #4caf50;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.about-text li{
+  margin: 10px 0px;
+}
+
+#count{
+  position: absolute;
+  color: #14df32;
+  right: 23px;
+  top: 10px;
+  font-size: 15px;
+  padding: 0;
+  background-color: white;
+}
+
+.cart-section {
+  margin-top: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+  color:#000000;
+}
+
+.cart-table th {
+  background-color:#fff;
+}
+
+.cart-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+.cart-table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+.cart-table tbody tr:hover {
+  background-color: #fff;
+}
+.cart-table .del{
+  border-radius: 10px;
+  background-color: rgb(162, 155, 155);
+  padding: 8px;
+}
