@@ -12,7 +12,7 @@ let div = `
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end  " id="navbarSupportedContent">
+    <div class="collapse navbar-collapse bg-white justify-content-end  " id="navbarSupportedContent">
         <ul class="navbar-nav fw-bold fs-5">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
