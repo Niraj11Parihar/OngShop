@@ -1,7 +1,7 @@
 let header = document.getElementById("header")
 let div = `
 <div class="container">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-white">
 <div class="container-fluid">
     <div class="navbar-brand  align-items-center  d-flex" href="#">
         <img src="assets/images/logo.png" alt="" class="mx-2" style="height: 40px;">
@@ -12,7 +12,7 @@ let div = `
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse bg-white justify-content-end  " id="navbarSupportedContent">
+    <div class="collapse navbar-collapse bg-dark justify-content-end  " id="navbarSupportedContent">
         <ul class="navbar-nav fw-bold fs-5">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
