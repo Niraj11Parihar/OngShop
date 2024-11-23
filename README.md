@@ -53,7 +53,8 @@
 
 ![Screenshot 2024-11-07 080723](https://github.com/user-attachments/assets/80ed2af3-dc17-43c6-a021-184ccb0fe1cb)
 
-![Screenshot 2024-11-07 080745](https://github.com/user-attachments/assets/ef1c9a3f-8ab0-4ca4-85d5-ee1da67c4a73)
+![Screenshot 2024-11-23 160255](https://github.com/user-attachments/assets/7a2e10dc-6464-4fac-8817-f67e1ff91593)
+
 
 
 ## Future Improvements
